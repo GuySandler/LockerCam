@@ -2,7 +2,6 @@
 I'm not selling your data, why would I :)
 
 ## Supported Versions
-0.0.1 alpha
 
 | Version          | Supported          |
 |------------------|--------------------|
