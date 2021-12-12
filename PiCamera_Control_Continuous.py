@@ -39,6 +39,7 @@ for frame in camera.capture_continuous(rawCapture, format="bgr", use_video_port=
 		now = datetime.now()
 		current_time = now.strftime("%Y-%m-%d_%H-%M-%S")
 		#camera.capture(f'//home//pi//Pictures//{current_time}.jpg')
+		sleep(2)
 		cv2.imwrite(f'//home//pi//Pictures//{current_time}.jpg', image)
 		sleep(20)
 
